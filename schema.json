@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "load_params": {
+        "type": "object",
+        "properties": {
+          "n_ctx": { "type": "number" },
+          "n_batch": { "type": "number" },
+          "n_gpu_layers": { "type": "number" },
+          "main_gpu": { "type": "number" },
+          "tensor_split": { "type": "array", "items": { "type": "number" } },
+          "seed": { "type": "number" },
+          "f16_kv": { "type": "boolean" },
+          "logits_all": { "type": "boolean" },
+          "vocab_only": { "type": "boolean" },
+          "use_mmap": { "type": "boolean" },
+          "use_mlock": { "type": "boolean" },
+          "rope_freq_base": { "type": "number" },
+          "rope_freq_scale": { "type": "number" }
+        },
+        "additionalProperties": false
+      },
+      "inference_params": {
+        "type": "object",
+        "properties": {
+          "n_threads": { "type": "number" },
+          "seed": { "type": "number" },
+          "n_predict": { "type": "number" },
+          "top_k": { "type": "number" },
+          "top_p": { "type": "number" },
+          "tfs_z": { "type": "number" },
+          "typical_p": { "type": "number" },
+          "temp": { "type": "number" },
+          "repeat_penalty": { "type": "number" },
+          "repeat_last_n": { "type": "number" },
+          "frequency_penalty": { "type": "number" },
+          "presence_penalty": { "type": "number" },
+          "n_keep": { "type": "number" },
+          "logit_bias": { "type": "object" },
+          "mirostat": { "type": "number" },
+          "mirostat_tau": { "type": "number" },
+          "mirostat_eta": { "type": "number" },
+          "input_prefix": { "type": "string" },
+          "input_suffix": { "type": "string" },
+          "antiprompt": { "type": "array", "items": { "type": "string" } },
+          "lora_adapter": { "type": "string" },
+          "lora_base": { "type": "string" },
+          "memory_f16": { "type": "boolean" },
+          "multiline_input": { "type": "boolean" },
+          "penalize_nl": { "type": "boolean" },
+          "pre_prompt": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "required": [],
+    "additionalProperties": false
+  }
