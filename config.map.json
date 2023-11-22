@@ -1,0 +1,16 @@
+{
+    "_formatVersion": "0.0.2",
+    "preset_map": {
+        "*/Llama-2-*B-*hat-*/*.*": "metaai_llama_2_chat.preset.json",
+        "*/vicuna-*B-v*-16K-*/*.*": "vicuna_v1_5_16k.preset.json",
+        "*/CodeLlama-*B-*/*.*": "codellama_completion.preset.json",
+        "*/CodeLlama-*B-Python-*/*.*": "codellama_instruct.preset.json",
+        "*/CodeLlama-*B-Instruct-*/*.*": "codellama_instruct.preset.json",
+        "*/Phind-CodeLlama-34B-v*-GGUF/*/*.*": "phind_codellama.preset.json",
+        "*/*istral-*B-Instruct-v*-GGUF/*.gguf": "mistral_instruct.preset.json",
+        "*/OpenHermes-2-Mistral-7B-GGUF/*.gguf": "chatml.preset.json",
+        "*/zephyr-*B-*-GGUF/*.gguf": "zephyr.preset.json",
+        "*/dolphin-*-mistral-*B-GGUF/*.gguf": "chatml.preset.json",
+        "*/*istral-*B-OpenOrca-GGUF/*.gguf": "chatml.preset.json"
+    }
+}

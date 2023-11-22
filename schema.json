@@ -52,7 +52,10 @@
           "memory_f16": { "type": "boolean" },
           "multiline_input": { "type": "boolean" },
           "penalize_nl": { "type": "boolean" },
-          "pre_prompt": { "type": "string" }
+          "pre_prompt": { "type": "string" },
+          "pre_prompt_prefix": { "type": "string" },
+          "pre_prompt_suffix": { "type": "string" },
+          "grammar": { "type": "string" }
         },
         "additionalProperties": false
       }
