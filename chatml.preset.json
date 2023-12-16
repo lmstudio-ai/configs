@@ -1,0 +1,14 @@
+{
+  "name": "ChatML",
+  "inference_params": {
+    "input_prefix": "<|im_end|>\n<|im_start|>user\n",
+    "input_suffix": "<|im_end|>\n<|im_start|>assistant\n",
+    "antiprompt": [
+      "<|im_start|>",
+      "<|im_end|>"
+    ],
+    "pre_prompt_prefix": "<|im_start|>system\n",
+    "pre_prompt_suffix": "",
+    "pre_prompt": "Perform the task to the best of your ability."
+  }
+}

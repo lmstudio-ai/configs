@@ -1,0 +1,17 @@
+{
+  "name": "Phind CodeLlama",
+  "inference_params": {
+    "pre_prompt": "You are an intelligent programming assistant.",
+    "pre_prompt_prefix": "### System Prompt\n",
+    "pre_prompt_suffix": "\n",
+    "input_prefix": "### User Message\n",
+    "input_suffix": "### Assistant\n",
+    "antiprompt": [
+      "[INST]"
+    ]
+  },
+  "load_params": {
+    "rope_freq_scale": 0,
+    "rope_freq_base": 0
+  }
+}

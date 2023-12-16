@@ -1,0 +1,17 @@
+{
+  "name": "CodeLlama WizardCoder",
+  "load_params": {
+    "rope_freq_scale": 0,
+    "rope_freq_base": 0
+  },
+  "inference_params": {
+    "input_prefix": "### Instruction:",
+    "input_suffix": "### Response:",
+    "antiprompt": [
+      "### Instruction:"
+    ],
+    "pre_prompt": "Below is an instruction that describes a task. Write a response that appropriately completes the request.",
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": "\n\n"
+  }
+}

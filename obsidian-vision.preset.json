@@ -1,0 +1,21 @@
+{
+  "name": "Obsidian Vision",
+  "load_params": {
+    "n_ctx": 2048,
+    "rope_freq_base": 10000,
+    "rope_freq_scale": 1
+  },
+  "inference_params": {
+    
+    "input_prefix": "<|im_start|>user\n",
+    "input_suffix": "\n###\n<|im_start|>assistant:",
+    "antiprompt": [
+      "<|im_start|>",
+      "<|im_end|>",
+      "###"
+    ],
+    "pre_prompt": "",
+    "pre_prompt_suffix": "",
+    "pre_prompt_prefix": ""
+  }
+}

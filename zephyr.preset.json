@@ -1,0 +1,16 @@
+{
+  "name": "Zephyr",
+  "inference_params": {
+    "pre_prompt_prefix": "<|system|>\n",
+    "pre_prompt_suffix": "\n",
+    "input_prefix": "\n<|user|>\n",
+    "input_suffix": "\n<|assistant|>\n",
+    "antiprompt": [
+      "<|system|>", "<|user|>", "<|assistant|>"
+    ]
+  },
+  "load_params": {
+    "rope_freq_scale": 0,
+    "rope_freq_base": 0
+  }
+}

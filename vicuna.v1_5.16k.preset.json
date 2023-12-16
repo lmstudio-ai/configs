@@ -1,0 +1,16 @@
+{
+  "name": "Vicuna v1.5 16K",
+  "load_params": {
+    "rope_freq_scale": 0.25
+  },
+  "inference_params": {
+    "input_prefix": "USER:",
+    "input_suffix": "ASSISTANT:",
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": "\n\n",
+    "pre_prompt": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.",
+    "antiprompt": [
+      "USER:"
+    ]
+  }
+}

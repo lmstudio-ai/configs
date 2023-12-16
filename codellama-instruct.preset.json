@@ -1,0 +1,19 @@
+{
+  "name": "CodeLlama Instruct",
+  "load_params": {
+    "rope_freq_scale": 0,
+    "rope_freq_base": 0
+  },
+  "inference_params": {
+    "top_p": 0.95,
+    "temp": 0.2,
+    "input_prefix": "[INST]",
+    "input_suffix": "[/INST]\n",
+    "pre_prompt": "You are a helpful coding AI assistant.",
+    "pre_prompt_prefix": "[INST]<<SYS>>\n",
+    "pre_prompt_suffix": "<</SYS>>[/INST]\n",
+    "antiprompt": [
+      "[INST]"
+    ]
+  }
+}

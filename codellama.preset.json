@@ -1,0 +1,19 @@
+{
+  "name": "CodeLlama Completion",
+  "load_params": {
+    "rope_freq_scale": 0,
+    "rope_freq_base": 0
+  },
+  "inference_params": {
+    "top_p": 0.9,
+    "temp": 0.2,
+    "input_prefix": "",
+    "input_suffix": "",
+    "pre_prompt": "",
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": "",
+    "antiprompt": [
+      ""
+    ]
+  }
+}

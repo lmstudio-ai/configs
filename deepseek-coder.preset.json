@@ -1,0 +1,17 @@
+{
+    "name": "Deepseek Coder",
+    "inference_params": {
+    "input_prefix": "### Instruction:\n",
+    "input_suffix": "\n### Response:\n",
+    "antiprompt": [
+        "### Instruction:"
+    ],
+    "pre_prompt": "You are an AI programming assistant, utilizing the Deepseek Coder model, developed by Deepseek Company, and you only answer questions related to computer science.",
+    "pre_prompt_suffix": "\n",
+    "pre_prompt_prefix": ""
+    },
+    "load_params": {
+        "rope_freq_scale": 0,
+        "rope_freq_base": 0
+    }
+}

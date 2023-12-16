@@ -1,0 +1,16 @@
+{
+  "name": "Mistral Instruct",
+  "inference_params": {
+    "input_prefix": "[INST]",
+    "input_suffix": "[/INST]",
+    "antiprompt": [
+      "[INST]"
+    ],
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": ""
+  },
+  "load_params": {
+    "rope_freq_scale": 0,
+    "rope_freq_base": 0
+  }
+}

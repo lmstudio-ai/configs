@@ -1,0 +1,11 @@
+{
+  "name": "Alpaca CoT",
+  "inference_params": {
+    "input_prefix": "### Instruction:\n",
+    "input_suffix": "### Response: Let's think step by step. ",
+    "antiprompt": [
+      "### Instruction:"
+    ],
+    "pre_prompt": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n"
+  }
+}
