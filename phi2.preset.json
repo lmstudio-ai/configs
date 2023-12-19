@@ -1,0 +1,17 @@
+{
+  "name": "Phi 2",
+  "inference_params": {
+    "input_prefix": "Instruct: ",
+    "input_suffix": "\nOutput:",
+    "antiprompt": [
+      "Instruct:", "Output:"
+    ],
+    "pre_prompt": "",
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": ""
+  },
+  "load_params": {
+    "rope_freq_scale": 0,
+    "rope_freq_base": 0
+  }
+}

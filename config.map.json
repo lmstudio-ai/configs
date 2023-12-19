@@ -13,6 +13,7 @@
     "*/zephyr-*-GGUF/*.gguf": "zephyr.preset.json",
     "*/stablelm-zephyr-*-GGUF/*.gguf": "zephyr.preset.json",
     "*/deepseek-*-instruct-GGUF/*.gguf": "deepseek_coder.preset.json",
-    "*/Mixtral-8x7B-Instruct-v*-GGUF": "mistral_instruct.preset.json"
+    "*/Mixtral-8x7B-Instruct-v*-GGUF": "mistral_instruct.preset.json",
+    "*/phi-2-GGUF":"phi2.preset.json"
   }
 }
