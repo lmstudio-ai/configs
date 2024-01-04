@@ -20,7 +20,9 @@
           "use_mmap": { "type": "boolean" },
           "use_mlock": { "type": "boolean" },
           "rope_freq_base": { "type": "number" },
-          "rope_freq_scale": { "type": "number" }
+          "rope_freq_scale": { "type": "number" },
+          "num_experts_used": { "type": "number" },
+          "no_kv_offload": { "type": "boolean" }
         },
         "additionalProperties": false
       },
@@ -32,6 +34,7 @@
           "n_predict": { "type": "number" },
           "top_k": { "type": "number" },
           "top_p": { "type": "number" },
+          "min_p": { "type": "number" },
           "tfs_z": { "type": "number" },
           "typical_p": { "type": "number" },
           "temp": { "type": "number" },
