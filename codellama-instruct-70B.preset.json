@@ -1,0 +1,20 @@
+{
+  "name": "CodeLlama Instruct 70B",
+  "inference_params": {
+    "input_prefix": " Source: user\n\n  ",
+    "input_suffix": "Source: assistant\nDestination: user\n\n ",
+    "antiprompt": [
+      "<step>",
+      "Source: assistant",
+      "Source: assistant \\n",
+      "Source: assistant\\n"
+    ],
+    "pre_prompt": "You are a helpful AI coding assistant.",
+    "pre_prompt_prefix": " <step> ",
+    "pre_prompt_suffix": "Source: system\n\n "
+  },
+  "load_params": {
+    "rope_freq_scale": 0,
+    "rope_freq_base": 0
+  }
+}
