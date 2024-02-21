@@ -1,0 +1,17 @@
+{
+  "name": "Google Gemma Instruct",
+  "inference_params": {
+    "input_prefix": "<start_of_turn>user\n",
+    "input_suffix": "<end_of_turn>\n<start_of_turn>model\n",
+    "antiprompt": [
+      "<start_of_turn>user", "<start_of_turn>model", "<end_of_turn>"
+    ],
+    "pre_prompt": "",
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": ""
+  },
+  "load_params": {
+    "rope_freq_scale": 0,
+    "rope_freq_base": 0
+  }
+}
