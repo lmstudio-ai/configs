@@ -1,0 +1,13 @@
+{
+  "name": "Cohere Command R",
+  "inference_params": {
+    "input_prefix": "<|END_OF_TURN_TOKEN|><|START_OF_TURN_TOKEN|><|USER_TOKEN|>",
+    "input_suffix": "<|END_OF_TURN_TOKEN|><|START_OF_TURN_TOKEN|><|CHATBOT_TOKEN|>",
+    "antiprompt": [
+      "<|START_OF_TURN_TOKEN|>",
+      "<|END_OF_TURN_TOKEN|>"
+    ],
+    "pre_prompt_prefix": "<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|>",
+    "pre_prompt_suffix": ""
+  }
+}
