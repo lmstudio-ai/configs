@@ -17,6 +17,7 @@
     "*/phi-2-GGUF/*.gguf": "phi_2.preset.json",
     "*/Qwen1.5-*-Chat-GGUF/*.gguf": "chatml.preset.json",
     "*/gemma-*b-it/*.gguf": "google_gemma_instruct.preset.json",
-    "*/gemma-*b-it-GGUF/*.gguf": "google_gemma_instruct.preset.json"
+    "*/gemma-*b-it-GGUF/*.gguf": "google_gemma_instruct.preset.json",
+    "*/Hermes-2-Pro-Mistral-7B-GGUF/*.gguf": "chatml.preset.json"
   }
 }
