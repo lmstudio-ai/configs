@@ -8,6 +8,6 @@
       "<|END_OF_TURN_TOKEN|>"
     ],
     "pre_prompt_prefix": "<|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|>",
-    "pre_prompt_suffix": "<|END_OF_TURN_TOKEN|>"
+    "pre_prompt_suffix": ""
   }
 }
