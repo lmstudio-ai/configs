@@ -1,13 +1,13 @@
 {
   "name": "Alpaca",
   "inference_params": {
-    "input_prefix": "### Instruction:\n",
+    "input_prefix": "\n### Instruction:\n",
     "input_suffix": "\n### Response:\n",
     "antiprompt": [
       "### Instruction:"
     ],
     "pre_prompt": "Below is an instruction that describes a task. Write a response that appropriately completes the request.",
-    "pre_prompt_suffix": "\n",
+    "pre_prompt_suffix": "",
     "pre_prompt_prefix": ""
   }
 }
