@@ -1,0 +1,13 @@
+{
+  "name": "LM Studio Blank Preset",
+  "inference_params": {
+    "input_prefix": "",
+    "input_suffix": "",
+    "antiprompt": [
+      ""
+    ],
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": "",
+    "pre_prompt": ""
+  }
+}
