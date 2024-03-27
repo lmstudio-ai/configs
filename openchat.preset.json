@@ -1,0 +1,13 @@
+{
+  "name": "OpenChat",
+  "inference_params": {
+    "input_prefix": "GPT4 Correct User: ",
+    "input_suffix": "<|end_of_turn|>GPT4 Correct Assistant:",
+    "antiprompt": [
+      "<|end_of_turn|>", "GPT4 Correct User: ", "GPT4 Correct Assistant:"
+    ],
+    "pre_prompt_prefix": "",
+    "pre_prompt_suffix": "",
+    "pre_prompt": ""
+  }
+}
