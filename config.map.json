@@ -20,6 +20,7 @@
     "*/gemma-*b-it-GGUF/*.gguf": "google_gemma_instruct.preset.json",
     "*/Hermes-2-Pro-Mistral-7B-GGUF/*.gguf": "chatml.preset.json",
     "*/c4ai-command-r-v01-GGUF/*.gguf": "cohere_command_r.preset.json",
+    "*/c4ai-command-r-plus*/*.gguf": "cohere_command_r.preset.json",
     "*/stable-code-instruct-3b*/*.gguf": "chatml.preset.json",
     "*/Starling-LM-7B-beta-GGUF/*.gguf": "openchat.preset.json"
   }
