@@ -23,6 +23,6 @@
     "*/c4ai-command-r-plus*/*.gguf": "cohere_command_r.preset.json",
     "*/stable-code-instruct-3b*/*.gguf": "chatml.preset.json",
     "*/Starling-LM-7B-beta-GGUF/*.gguf": "openchat.preset.json",
-    "*/Meta-Llama-3-*-Instruct-GGUF/*.gguf": "llama3.preset.json"
+    "*/Meta-Llama-3-*-Instruct-GGUF/*.gguf": "llama_3.preset.json"
   }
 }
