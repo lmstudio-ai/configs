@@ -7,7 +7,7 @@
     "pre_prompt_prefix": "<|start_header_id|>system<|end_header_id|>\n\n",
     "pre_prompt_suffix": "<|eot_id|>",
     "antiprompt": [
-      "<|start_header_id|>"
+      "<|start_header_id|>", "<|eot_id|>
     ]
   }
 }
