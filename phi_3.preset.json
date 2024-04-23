@@ -1,0 +1,18 @@
+{
+  "name": "Phi 3",
+  "inference_params": {
+    "input_prefix": "<|user|>\n",
+    "input_suffix": "<|end|>\n<|assistant|>\n",
+    "antiprompt": [
+      "<|end|>",
+      "<|assistant|>"
+    ],
+    "pre_prompt": "",
+    "pre_prompt_suffix": "<|end|>\n",
+    "pre_prompt_prefix": "<|system|>\n"
+  },
+  "load_params": {
+      "rope_freq_scale": 0,
+      "rope_freq_base": 0
+  }
+}
