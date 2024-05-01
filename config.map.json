@@ -25,6 +25,7 @@
     "*/stable-code-instruct-3b*/*.gguf": "chatml.preset.json",
     "*/Starling-LM-7B-beta-GGUF/*.gguf": "openchat.preset.json",
     "*/Meta-Llama-3-*-Instruct-GGUF/*.gguf": "llama_3.preset.json",
-    "*/CodeQwen1.5-*-Chat-GGUF/*.gguf": "chatml.preset.json"
+    "*/CodeQwen1.5-*-Chat-GGUF/*.gguf": "chatml.preset.json",
+    "*/Hermes-2-Pro-Llama-3-*/*.gguf": "chatml.preset.json"
   }
 }
