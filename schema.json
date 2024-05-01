@@ -22,7 +22,8 @@
           "rope_freq_base": { "type": "number" },
           "rope_freq_scale": { "type": "number" },
           "num_experts_used": { "type": "number" },
-          "no_kv_offload": { "type": "boolean" }
+          "no_kv_offload": { "type": "boolean" },
+          "flash_attn": { "type": "boolean" }
         },
         "additionalProperties": false
       },
