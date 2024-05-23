@@ -26,6 +26,8 @@
     "*/Starling-LM-7B-beta-GGUF/*.gguf": "openchat.preset.json",
     "*/Meta-Llama-3-*-Instruct-GGUF/*.gguf": "llama_3.preset.json",
     "*/CodeQwen1.5-*-Chat-GGUF/*.gguf": "chatml.preset.json",
-    "*/Hermes-2-Pro-Llama-3-*/*.gguf": "chatml.preset.json"
+    "*/Hermes-2-Pro-Llama-3-*/*.gguf": "chatml.preset.json",
+    "*/falcon*-GGUF/*.gguf": "falcon.preset.json",
+    "*/granite-*-GGUF/*.gguf": "granite.preset.json"
   }
 }
