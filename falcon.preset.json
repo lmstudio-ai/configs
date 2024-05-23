@@ -1,0 +1,13 @@
+{
+  "name": "Falcon",
+  "inference_params": {
+    "input_prefix": "User:\n",
+    "input_suffix": "\nFalcon:",
+    "antiprompt": [
+      "User:\n"
+    ],
+    "pre_prompt": "",
+    "pre_prompt_prefix": "System: ",
+    "pre_prompt_suffix": "\n"
+  }
+}

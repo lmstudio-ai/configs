@@ -1,0 +1,13 @@
+{
+  "name": "IBM Granite",
+  "inference_params": {
+    "input_prefix": "Question:\n",
+    "input_suffix": "\n\nAnswer:",
+    "antiprompt": [
+      "Question:\n"
+    ],
+    "pre_prompt": "",
+    "pre_prompt_prefix": "System:\n",
+    "pre_prompt_suffix": "\n\n"
+  }
+}
