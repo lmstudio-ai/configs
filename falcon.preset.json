@@ -7,7 +7,7 @@
       "User:\n"
     ],
     "pre_prompt": "",
-    "pre_prompt_suffix": "System: ",
-    "pre_prompt_prefix": "\n"
+    "pre_prompt_prefix": "System: ",
+    "pre_prompt_suffix": "\n"
   }
 }
