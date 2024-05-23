@@ -1,0 +1,13 @@
+{
+  "name": "Starcoder 2 Instruct",
+  "inference_params": {
+    "input_prefix": "### Instruction\n",
+    "input_suffix": "\n\n### Response\n",
+    "antiprompt": [
+      "<|endoftext|>"
+    ],
+    "pre_prompt": "You are an exceptionally intelligent coding assistant that consistently delivers accurate and reliable responses to user instructions.",
+    "pre_prompt_prefix": "<|endoftext|>",
+    "pre_prompt_suffix": "\n\n"
+  }
+}

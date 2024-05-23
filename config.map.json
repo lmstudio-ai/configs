@@ -28,6 +28,7 @@
     "*/CodeQwen1.5-*-Chat-GGUF/*.gguf": "chatml.preset.json",
     "*/Hermes-2-Pro-Llama-3-*/*.gguf": "chatml.preset.json",
     "*/falcon*-GGUF/*.gguf": "falcon.preset.json",
-    "*/granite-*-GGUF/*.gguf": "granite.preset.json"
+    "*/granite-*-GGUF/*.gguf": "ibm_granite.preset.json",
+    "*/starcoder2-*-GGUF/*.gguf": "starcoder_2_instruct.preset.json"
   }
 }
