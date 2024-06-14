@@ -1,7 +1,7 @@
 ## LM Studio - Extension Packs (Beta)
 
 ### One-time step for LM Studio 0.2.24 -> 0.2.25 upgrade
-If you've downloaded an extension pack before, please **first** delete everything in your `~/.cache/lm-studio/extensions/backends` directory to ensure new extension packs are installed properly. 
+If you've downloaded an extension pack before, please **first** delete everything in your `%USERPROFILE%\.cache\lm-studio\extensions\backends` (Windows) or `~/.cache/lm-studio/extensions/backends` (Linux) directory to ensure new extension packs are installed properly. 
 
 This is only required for this release.
 
