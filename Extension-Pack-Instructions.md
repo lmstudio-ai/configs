@@ -10,7 +10,7 @@ This is only required for this release.
 - #### AMD ROCm
 Run the following command in Powershell **before** starting the app:
 ```ps1
-Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri https://files.lmstudio.ai/windows/extension-pack-install-scripts/win-rocm-0.2.25-ext-install.ps1 -  UseBasicParsing).Content))
+Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri https://files.lmstudio.ai/windows/extension-pack-install-scripts/win-rocm-0.2.25-ext-install.ps1 -UseBasicParsing).Content))
 ```
 
 - #### OpenCL
