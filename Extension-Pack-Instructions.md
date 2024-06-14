@@ -10,11 +10,11 @@
   ```
 ### Linux Extension Pack Download Instructions 🐧
 **Delete everything in `~/.cache/lm-studio/extensions/backends` first to ensure new extension packs are installed properly**
-  - Enable AMD ROCm for Linux by running the following command in terminal before starting the app:
+  - Enable **AMD ROCm** for Linux by running the following command in terminal before starting the app:
   ```
   curl -fsSL https://files.lmstudio.ai/linux/0.2.25/beta/extension-pack-install-scripts/lin-rocm-0.2.25-ext-install.sh | sh
   ```
-  - Enable OpenCL for Linux by running the following command in terminal before starting the app:
+  - Enable **OpenCL** for Linux by running the following command in terminal before starting the app:
   ```
   curl -fsSL https://files.lmstudio.ai/linux/0.2.25/beta/extension-pack-install-scripts/lin-opencl-0.2.25-ext-install.sh | sh
   ```
