@@ -1,4 +1,4 @@
-### Windows Extension Pack Download Instructions 🪟
+# Windows Extension Pack Download Instructions 🪟
 **Delete everything in `~/.cache/lm-studio/extensions/backends` first to ensure new extension packs are installed properly**
   - Enable **AMD ROCm** for Windows by running the following command in Powershell before starting the app:
   ```
@@ -8,7 +8,7 @@
   ```
   `Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri https://files.lmstudio.ai/win-opencl-ext-install.ps1 -UseBasicParsing).Content))`
   ```
-### Linux Extension Pack Download Instructions 🐧
+# Linux Extension Pack Download Instructions 🐧
 **Delete everything in `~/.cache/lm-studio/extensions/backends` first to ensure new extension packs are installed properly**
   - Enable **AMD ROCm** for Linux by running the following command in terminal before starting the app:
   ```
