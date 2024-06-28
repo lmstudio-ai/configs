@@ -1,6 +1,6 @@
 ## LM Studio - Extension Packs (Beta)
 
-### One-time step for LM Studio 0.2.24 -> 0.2.25 upgrade
+### One-time step for LM Studio 0.2.24 users
 If you've downloaded an extension pack before, please **first** delete everything in your `%USERPROFILE%\.cache\lm-studio\extensions\backends` (Windows) or `~/.cache/lm-studio/extensions/backends` (Linux) directory to ensure new extension packs are installed properly. 
 
 This is only required for this release.
@@ -10,7 +10,7 @@ This is only required for this release.
 - #### AMD ROCm
 Run the following command in Powershell **before** starting the app:
 ```ps1
-Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri https://files.lmstudio.ai/windows/extension-pack-install-scripts/win-rocm-0.2.25-ext-install.ps1 -UseBasicParsing).Content))
+Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri https://files.lmstudio.ai/windows/extension-pack-install-scripts/win-rocm-0.2.26-ext-install.ps1 -UseBasicParsing).Content))
 ```
 
 - #### OpenCL
