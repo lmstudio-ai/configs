@@ -5,18 +5,12 @@ If you've downloaded an extension pack before, please **first** delete everythin
 
 This is only required for this release.
 
-## Installation on Windows (0.2.26) 🪟
+## Installation on Windows (0.2.27) 🪟
 
 - #### AMD ROCm
 Run the following command in Powershell **before** starting the app:
 ```ps1
-Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri https://files.lmstudio.ai/windows/extension-pack-install-scripts/win-rocm-0.2.26-ext-install.ps1 -UseBasicParsing).Content))
-```
-
-- #### OpenCL (0.2.25, does not support `Gemma 2`)
-Run the following command in Powershell **before** starting the app:
-```ps1
-Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri https://files.lmstudio.ai/win-opencl-ext-install.ps1 -UseBasicParsing).Content))
+Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri https://files.lmstudio.ai/windows/extension-pack-install-scripts/win-rocm-0.2.27-ext-install.ps1 -UseBasicParsing).Content))
 ```
 
 ## Installation on Linux (0.2.25) 🐧 
