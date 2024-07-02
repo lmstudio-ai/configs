@@ -13,13 +13,13 @@ Run the following command in Powershell **before** starting the app:
 Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri https://files.lmstudio.ai/windows/extension-pack-install-scripts/win-rocm-0.2.27-ext-install.ps1 -UseBasicParsing).Content))
 ```
 
-## Installation on Linux (0.2.25) 🐧 
+## Installation on Linux (0.2.27) 🐧
 
 - #### AMD ROCm
 
 Run the following command in your terminal **before** starting the app:
 ```shell
-curl -fsSL https://files.lmstudio.ai/linux/0.2.25/beta/extension-pack-install-scripts/lin-rocm-0.2.25-ext-install.sh | sh
+curl -fsSL https://files.lmstudio.ai/linux/0.2.27/beta/extension-pack-install-scripts/lin-rocm-0.2.27-ext-install.sh | sh
 ```
 
 ## Need help?
