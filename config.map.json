@@ -24,7 +24,7 @@
     "*/c4ai-command-r-plus*/*.gguf": "cohere_command_r.preset.json",
     "*/stable-code-instruct-3b*/*.gguf": "chatml.preset.json",
     "*/Starling-LM-7B-beta-GGUF/*.gguf": "openchat.preset.json",
-    "*/Meta-Llama-3-*-Instruct-GGUF/*.gguf": "llama_3_v2.preset.json",
+    "*/Meta-Llama-*-Instruct-GGUF/*.gguf": "llama_3_v2.preset.json",
     "*/CodeQwen1.5-*-Chat-GGUF/*.gguf": "chatml.preset.json",
     "*/Hermes-2-Pro-Llama-3-*/*.gguf": "chatml.preset.json",
     "*/falcon*-GGUF/*.gguf": "falcon.preset.json",
