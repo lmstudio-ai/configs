@@ -16,6 +16,12 @@ To ensure your new GPU-enabled extension pack is the active LM-Runtime, navigate
 
 <img src="https://github.com/user-attachments/assets/986fbc1b-abd9-47d4-a0b3-7faf071cfb6f" width="800">
 
+- #### CPU AVX-Only (Candidate)
+Run the following command in Powershell **before** starting the app:
+```ps1
+Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Uri https://files.lmstudio.ai/windows/extension-pack-install-scripts/win-cpu-avx-0.2.29-ext-install.ps1 -UseBasicParsing).Content))
+```
+
 
 ## Installation on Linux (0.2.29) 🐧
 
