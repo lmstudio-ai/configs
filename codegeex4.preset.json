@@ -1,0 +1,41 @@
+{
+  "name": "CodeGeeX4",
+  "load_params": {
+    "n_ctx": 2048,
+    "n_batch": 512,
+    "rope_freq_base": 0,
+    "rope_freq_scale": 0
+  },
+  "inference_params": {
+    "n_threads": 4,
+    "n_predict": -1,
+    "top_k": 40,
+    "min_p": 0,
+    "top_p": 0.95,
+    "temp": 0.2,
+    "repeat_penalty": 1,
+    "input_prefix": "<|user|>\n",
+    "input_suffix": "\n<|assistant|>\n",
+    "antiprompt": [
+      "<|user|>",
+      "<|observation|>"
+    ],
+    "pre_prompt": "You are an intelligent programming assistant named CodeGeeX. You will answer any questions users have about programming, coding, and computers, and provide code that is formatted correctly.",
+    "pre_prompt_suffix": "\n",
+    "pre_prompt_prefix": "<|system|>\n",
+    "seed": -1,
+    "tfs_z": 1,
+    "typical_p": 1,
+    "repeat_last_n": 64,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "n_keep": 0,
+    "logit_bias": {},
+    "mirostat": 0,
+    "mirostat_tau": 5,
+    "mirostat_eta": 0.1,
+    "memory_f16": true,
+    "multiline_input": false,
+    "penalize_nl": true
+  }
+}
