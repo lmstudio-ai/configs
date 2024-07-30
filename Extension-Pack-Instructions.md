@@ -1,11 +1,21 @@
-## LM Studio - Extension Packs (Beta)
+# LM Studio - Extension Packs (Beta)
+
+Extension Packs (in public beta) allow you to download LM runtimes that don't come prebundled with LM Studio.
+
+### Available extensions
+
+- [AMD ROCm on Windows](#amd-rocm)
+- [AVX-only CPU on Windows](#cpu-avx-only-candidate)
+- [AMD ROCm on Linux](#amd-rocm-1)
+- [AVX-only CPU on Linux](#cpu-avx-only)
+
 
 ### One-time step if you've downloaded an extension pack before
 Please **first** delete everything in your `%USERPROFILE%\.cache\lm-studio\extensions\backends` (Windows) or `~/.cache/lm-studio/extensions/backends` (Linux) directory to ensure new extension packs are installed properly. 
 
 This is a temporary step.
 
-## Installation on Windows (0.2.29) 🪟
+### Installation on Windows (0.2.29) 🪟
 
 - #### AMD ROCm
 Run the following command in Powershell **before** starting the app:
@@ -23,7 +33,7 @@ Invoke-Expression ([System.Text.Encoding]::UTF8.GetString((Invoke-WebRequest -Ur
 ```
 
 
-## Installation on Linux (0.2.29) 🐧
+### Installation on Linux (0.2.29) 🐧
 
 - #### AMD ROCm
 
