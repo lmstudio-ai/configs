@@ -23,7 +23,15 @@
           "rope_freq_scale": { "type": "number" },
           "num_experts_used": { "type": "number" },
           "no_kv_offload": { "type": "boolean" },
-          "flash_attn": { "type": "boolean" }
+          "flash_attn": { "type": "boolean" },
+          "cache_type_k": {
+            "type": "string",
+            "enum": ["f16", "q8_0", "q4_0", "q4_1", "q5_0", "q5_1"]
+          },
+          "cache_type_v": {
+            "type": "string",
+            "enum": ["f16", "q8_0", "q4_0", "q4_1", "q5_0", "q5_1"]
+          }
         },
         "additionalProperties": false
       },
